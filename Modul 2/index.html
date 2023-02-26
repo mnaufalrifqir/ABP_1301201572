@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Modul 2 HTML & GIT </title>
+</head>
+
+<body>
+    <h1>M Naufal Rifqi Ramdhani - 1301201572</h1>
+    <h2> Formulir Pendaftaran Mahasiswa</h2>
+    <form action=”” method=”POST”>
+        <table border="0" width="250">
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td width="900">
+                    <input type="text" name="nama_input" class="text-field" id="nama_id" placeholder="Masukkan Nama" />
+                </td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="NIM_input" class="text-field" id="NIM_id" placeholder="Masukkan NIM" />
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jk_input" class="radioB" id="radioB" value="Pria">Pria</input>
+                    <input type="radio" name="jk_input" class="radioB" id="radioB" value="Wanita">Wanita</input>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobi_input" class="checkBox" id="checkB_id" value="Main Bola">Main
+                    Bola</input><br />
+                    <input type="checkbox" name="hobi_input" class="checkBox" id="checkB_id"
+                        value="Bersepeda">Bersepeda</input><br />
+                    <input type="checkbox" name="hobi_input" class="checkBox" id="checkB_id"
+                        value="Basket">Basket</input>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenjang Pendidikan</td>
+                <td>:</td>
+                <td>
+                    <select name="jp_input" class="dropdown" id="jp_id">
+                        <option value="" selected>--- Pilih ---</option>
+                        <option value="SMA">Tamat SMA</option>
+                        <option value="D3">Tamat D3</option>
+                        <option value="S1">Tamat S1</option>
+                        <option value="S2">Tamat S2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Deskripsi Tentang Anda</td>
+                <td>:</td>
+                <td>
+                    <textarea rows="5" cols="35%"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    <button type="Button" name="btnCnc" class="btnCancel" id="id_btncnc">Cancel</button>
+                    <input type="Submit" name="btnSub" class="btnSubmit" id="id_btnsub" value="Submit" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
